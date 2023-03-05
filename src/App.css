@@ -1,7 +1,7 @@
 .question{
   display: flex;
   gap:10px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 h2{
@@ -10,7 +10,15 @@ h2{
 .prev{
   margin-left: 40%;
   margin-top: 200px;
+  border-radius: 30px;
+  border: blue solid 1px;
+}
+button:hover{
+ background-color: green;
+ border: none;
 }
 .next{
   margin-left: 10px;
+  border-radius: 30px;
+  border: blue solid 1px;
 }
