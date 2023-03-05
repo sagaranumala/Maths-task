@@ -2,8 +2,6 @@ import './App.css';
 import React from 'react'
 import { useEffect,useState } from 'react';
 import {MathJaxContext,MathJax } from 'better-react-mathjax';
-import Latex from 'react-latex';
-import Home from './Home';
 
 const App=() =>{
   const arr=["AreaUnderTheCurve_901","BinomialTheorem_901","DifferentialCalculus2_901"]
